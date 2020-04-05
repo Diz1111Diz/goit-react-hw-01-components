@@ -4,26 +4,26 @@ import classes from "./Profile.module.css";
 
 const Profile = ({ name, tag, location, avatar, stats }) => {
   return (
-    <div className={classes.Profile}>
-      <div className={classes.Description}>
-        <img src={avatar} alt="user avatar" className={classes.Avatar} />
-        <p className="name">{name}</p>
-        <p className="tag">@{tag}</p>
-        <p className="location">{location}</p>
+    <div className={classes.profile}>
+      <div className={classes.description}>
+        <img src={avatar} alt="user avatar" className={classes.avatar} />
+        <p className={classes.name}>{name}</p>
+        <p className={classes.tag}>@{tag}</p>
+        <p className={classes.location}>{location}</p>
       </div>
 
-      <ul className={classes.Stats}>
+      <ul className={classes.stats}>
         <li>
-          <span className="label">Followers</span>
-          <span className="quantity">{stats.followers}</span>
+          <span className={classes.label}>Followers</span>
+          <span className={classes.quantity}>{stats.followers}</span>
         </li>
         <li>
-          <span className="label">Views</span>
-          <span className="quantity">{stats.views}</span>
+          <span className={classes.label}>Views</span>
+          <span className={classes.quantity}>{stats.views}</span>
         </li>
         <li>
-          <span className="label">Likes</span>
-          <span className="quantity">{stats.likes}</span>
+          <span className={classes.label}>Likes</span>
+          <span className={classes.quantity}>{stats.likes}</span>
         </li>
       </ul>
     </div>

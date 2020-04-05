@@ -1,40 +1,83 @@
-.Profile {
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+.profile {
     background-color: #FFFFFF;
-    opacity: 1;
     width: 250px;
-    height: 330px;
+    height: 361px;
     border-radius: 5px;
-    box-shadow: 0 1px 3px rgba(191, 205, 222, 0.75);
+    box-shadow: 0px 0px 12px 0px rgba(89, 92, 96, 0.55);
+    margin: 0;
+    display: inline-block;
+    margin-bottom: 15px;
 }
 
-.Description {
+.description {
     text-align: center;
+    padding: 30px 0;
 }
 
-.Stats {
-    opacity: 1;
+.stats {
     background-color: #F3F6F9;
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 21px 18px;
     display: flex;
-    justify-content: space-around;
-    width: 250px;
-    height: 74px;
+    justify-content: space-between;
     align-items: center;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+
 }
 
-.Stats li {
+.stats li {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 
-.Avatar {
+.avatar {
     border-radius: 50%;
     width: 102px;
     height: 100px;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.55);
+}
+
+.name {
+    margin: 0 0 11px;
+    color: #122236;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.tag {
+    margin: 0 0 11px;
+    color: #768696;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.location {
+    margin: 0;
+    color: #768696;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.label {
+    color: #768696;
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+
+}
+
+.quantity {
+    color: #1f3349;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+    margin-top: 9px;
 }

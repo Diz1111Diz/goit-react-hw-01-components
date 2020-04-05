@@ -1,0 +1,49 @@
+.statistics {
+    display: flex;
+    width: 268px;
+    height: ;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #e7ecf2;
+}
+
+.title {
+    font-size: 16px;
+    text-align: center;
+    color: #686868;
+    background-color: #fff;
+    margin: 0;
+    padding: 25px;
+    text-transform: uppercase;
+}
+
+.statList {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 25%;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.label {
+    font: 300 12px "Montserrat", sans-serif;
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+
+.percentage {
+    color: white;
+    font: 300 18px "Montserrat", sans-serif;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
