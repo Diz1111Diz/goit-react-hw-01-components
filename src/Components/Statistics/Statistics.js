@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import classes from "./Statistics.module.css";
+import generationColor from "../helpers/generationColor";
 
 const Statistics = ({ title, stats }) => {
   return (
@@ -35,10 +36,6 @@ Statistics.propTypes = {
 
 Statistics.defaultProps = {
   title: "",
-};
-
-const generationColor = () => {
-  return "#" + Math.floor(Math.random() * 16777215).toString(16);
 };
 
 export default Statistics;
